@@ -1,12 +1,45 @@
-#root {
+/* #root {
   color: black;
+} */
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  display: flex;
+  background-color: rgb(240, 235, 228);
+  color: black;
+  flex-direction: row;
+  width: auto;
+  height: 100px;
+  text-align: center;
 }
 
 .summary {
+  display: flex;
+  flex-direction: row;
 }
 
 article {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  width: 30vw;
+  height: fit-content;
 }
 
 section {
+  display: flex;
+  background-color: #f5e1eb;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  align-content: center;
 }

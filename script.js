@@ -17,6 +17,7 @@ function makePageForEpisodes(episodeList) {
     heading.textContent = `${episode.name} - ${episodeCode(episode)}`;
     image.src = episode.image.medium;
     episodeDescription.innerHTML = episode.summary;
+    episodeDescription.classList.add("summary");
     const episodeCard = document.createElement("article");
     episodeCard.append(heading, image, episodeDescription);
     episodeContainer.appendChild(episodeCard);
